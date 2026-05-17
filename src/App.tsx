@@ -12,7 +12,7 @@ import { Profile } from './pages/Profile';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/training-mall">
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">
